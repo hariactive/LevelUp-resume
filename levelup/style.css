@@ -1,0 +1,825 @@
+/* -------------------------------------colour codes------------------------------------------ */
+/* dark color: #17252A */
+/* light color: #52e3dc  rgb(82, 227, 220) */
+/* Button color: #2B7A78 */
+/* -------------------------------------colour codes------------------------------------------ */
+
+
+/* -------------------------------------Global Style------------------------------------------ */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Helvatica" san-serif;
+    font-size: 16px;
+}
+
+p {
+    letter-spacing: .9px;
+    line-height: 26px;
+    /* font-family: 'Merriweather', sans-serif; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: 'Rancho', cursive; */
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+#select-skill,
+.select-option,
+textarea {
+    width: 100% !important;
+    border-left: 12px solid rgb(82, 227, 220) !important;
+}
+
+body form label .redstar {
+    color: red;
+}
+
+.comman-hight {
+    height: 100vh;
+}
+
+.comman-hight-contact-page {
+    height: 85vh;
+}
+
+.btn-background-colour {
+    background-color: rgb(82, 227, 220);
+    border: none;
+    outline: none;
+}
+
+/* -------------------------------------Global Style------------------------------------------ */
+
+
+/* -------------------------------------header/NavBar Style------------------------------------------ */
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.back-color {
+    background-color: #17252A !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+header .navbar .navbar-nav a {
+    color: #fff !important;
+    margin-left: 20px;
+}
+
+header .navbar .navbar-nav .active1 a {
+    /* background-color: pink !important; */
+    color: #3AAFA9 !important;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-toggler-icon {
+    /* background-image: url("data:image/svg+xml;.."); */
+    color: #fff !important;
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: lightgreen;
+    /* padding: -20px; */
+    /* border:0px solid transparent; */
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 35 35' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(82, 227, 220, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* 
+nav .container {
+    border-bottom: 1px solid rgba(107, 106, 106, 0.6);
+    padding-bottom: 10px;
+} */
+/* 
+.shrink .container {
+    border: none !important;
+} */
+/* 
+ul.navbar-nav li a.nav-link {
+    color: #ffffff !important;
+} */
+/* 
+ul.navbar-nav li a.nav-link:hover {
+    color: #2d94fc !important;
+} */
+/* 
+ul.navbar-nav li.active a.nav-link {
+    color: #2d94fc !important;
+    transition: all.3s;
+} */
+
+.shrink {
+    /* background: #fff !important; */
+    box-shadow: 1px 2px 4px 0px #00000075 !important;
+}
+
+/* 
+.shrink .navbar-brand {
+    color: #2d94fc !important;
+} */
+/* 
+.shrink ul.navbar-nav li a.nav-link {
+    color: #222222 !important;
+} */
+/* 
+.shrink ul.navbar-nav li a.nav-link:hover,
+.shrink ul.navbar-nav li.active a.nav-link {
+    color: #2d94fc !important;
+} */
+
+/* -------------------------------------header/NavBar Style------------------------------------------ */
+
+/* -------------------------------------Banner Section Style------------------------------------------ */
+/* 
+.background-body-coloue{
+
+} */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(img/landingImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: brightness(50%); */
+}
+
+.banner_desc {
+    width: 100%;
+    text-align: center;
+}
+
+.banner_desc h1.title {
+    color: rgb(82, 227, 220);
+    margin-top: 23%;
+    text-shadow: 0px 0px 5px #DEF2F1;
+}
+
+.banner_desc .title2 {
+    color: #fff;
+}
+
+.banner .banner_desc .desc i {
+    color: rgb(82, 227, 220);
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.banner_desc_resume_img img {
+    margin-top: 262px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.banner_desc p.desc {
+    color: #fff;
+    margin: 30px 0px;
+}
+
+.banner_desc a button {
+    padding: 6px 28px;
+    color: #17252A;
+    background-color: rgb(82, 227, 220);
+    font-weight: bolder;
+    font-size: 18px;
+    border: 1px solid #fff;
+}
+
+.section2 {
+    background-color: #e3eefa;
+    padding-top: 260px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.section2 h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section2 .tagline {
+    font-weight: bold;
+}
+
+.section2 hr {
+    width: 20%;
+    margin: auto;
+    border: 2px solid #17252A;
+}
+
+.section2 .steps {
+    margin-top: 40px;
+}
+
+.section2 .margin-card {
+    margin-top: 90px;
+}
+
+.section2 .card-title {
+    background-color: #17252A;
+    color: #fff;
+    padding: 4px;
+    border: 2px solid rgb(82, 227, 220);
+    border-radius: 40%;
+}
+
+.section3 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.section3 hr {
+    width: 26%;
+    margin: auto;
+    border: 2px solid #17252A;
+}
+
+.section3 img {
+    width: 250px;
+    height: 250px;
+}
+
+.section3 .containt {
+    padding-top: 50px;
+}
+
+.section3 a button {
+    border: none;
+    padding: 12px;
+    margin-top: 60px;
+    background-color: #17252A;
+    color: #fff;
+}
+
+.home-faqs hr {
+    margin: auto;
+    width: 26%;
+    border: 2px solid #17252A;
+}
+
+.home-faqs .accordion {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.home-faqs .faqs .card-header {
+    background-color: #17252A;
+}
+
+.home-faqs .faqs .card-header button {
+    color: #fff;
+
+}
+
+.home-faqs .faqs li {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.home-faqs .faqs li i {
+    margin-right: 8px;
+}
+
+/* -------------------------------------Banner Section Style------------------------------------------ */
+
+/* -------------------------------------resume Style------------------------------------------ */
+.resume-display {
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+/* .resume-display img.card-img-top{
+    width: 120px !important;
+    height: 12px !important;
+} */
+
+.resume-display .card .button-one {
+    border: none;
+    /* background-color: rgb(82, 227, 220); */
+    padding: 6px 15px 6px 15px;
+    /* border-radius: 20%; */
+    background-color: #17252A;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.resume-display .card .button-two {
+    border: none;
+    background-color: rgb(82, 227, 220);
+    padding: 6px 15px 6px 15px;
+    /* border-radius: 20%; */
+    color: #fff;
+}
+
+.resume-display .card {
+    border: none;
+}
+
+/* -------------------------------------resume Style------------------------------------------ */
+
+/* -------------------------------------Login style------------------------------------------ */
+.back-login-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-login-img .right-side-login img {
+    width: 450px;
+    height: 450px;
+    margin-top: 140px;
+}
+
+.back-login-img .back {
+    /* background: #e2e2e2; */
+    width: 100%;
+    /* position: absolute; */
+    /* top: 0; */
+    /* bottom: 0; */
+}
+
+.div-center {
+    margin-top: 140px !important;
+    width: 400px;
+    height: 400px;
+    /* background-color: #fff; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 120; */
+    /* bottom: 0; */
+    margin: auto;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    /* overflow: auto; */
+    padding: 1em 2em;
+    /* border-bottom: 2px solid #ccc; */
+    /* display: table; */
+}
+
+/* div.content {
+    display: table-cell;
+    vertical-align: middle;
+  } */
+
+.div-center .content h3 {
+    color: #17252A !important;
+    text-align: center !important;
+}
+
+.div-center .content hr {
+    background-color: #17252A;
+    /* width: 20px; */
+    height: 2px;
+}
+
+.div-center .content form button {
+    width: 100%;
+    margin-top: 6px;
+    background-color: rgb(82, 227, 220);
+    border: none;
+}
+
+.div-center .content form .forget-link {
+    text-align: right;
+    /* margin-top: 2px; */
+
+}
+
+.div-center .content form .forget-link a,
+.div-center .content form p a {
+    color: rgb(82, 227, 220);
+}
+
+.div-center .content form p {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.div-center .content form .social-media-login-links {
+    text-align: center;
+}
+
+.div-center .content form .social-media-login-links a {
+    margin: 0px 20px 0px 20px;
+    font-size: 25px;
+    color: #17252A;
+}
+
+/* .no-outline:focus {
+    outline: none !important;
+} */
+
+/* -------------------------------------Login style------------------------------------------ */
+
+/* -------------------------------------Register style------------------------------------------ */
+.back-register-img {
+    position: relative;
+    width: 100%;
+    height: 108vh;
+    background: url(img/register.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back-register-img .right-side-register img {
+    width: 450px;
+    height: 450px;
+    margin-top: 140px;
+    margin-left: 130px;
+}
+
+.back-register-img .back {
+    /* background: #e2e2e2; */
+    width: 100%;
+    /* position: absolute; */
+    /* top: 0; */
+    /* bottom: 0; */
+}
+
+.div-center {
+    margin-top: 100px !important;
+    width: 400px;
+    height: 400px;
+    /* background-color: #fff; */
+    /* position: absolute; */
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 120; */
+    /* bottom: 0; */
+    margin: auto;
+    /* max-width: 100%; */
+    /* max-height: 100%; */
+    /* overflow: auto; */
+    padding: 1em 2em;
+    /* border-bottom: 2px solid #ccc; */
+    /* display: table; */
+}
+
+/* div.content {
+    display: table-cell;
+    vertical-align: middle;
+  } */
+
+.div-center .content {
+    margin-bottom: 80px !important;
+}
+
+.div-center .content h3 {
+    color: #17252A !important;
+    text-align: center !important;
+}
+
+.div-center .content hr {
+    background-color: #17252A;
+    /* width: 20px; */
+    height: 2px;
+}
+
+.div-center .content form button {
+    width: 100%;
+    margin-top: 6px;
+    background-color: rgb(82, 227, 220);
+    border: none;
+}
+
+.div-center .content form .forget-link {
+    text-align: right;
+    /* margin-top: 2px; */
+
+}
+
+.div-center .content form .forget-link a,
+.div-center .content form p a {
+    color: rgb(82, 227, 220);
+}
+
+.div-center .content form p {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.div-center .content form .social-media-register-links {
+    text-align: center;
+}
+
+.div-center .content form .social-media-register-links a {
+    margin: 0px 20px 0px 20px;
+    font-size: 25px;
+    color: #17252A;
+}
+
+/* -------------------------------------Register style------------------------------------------ */
+
+/* -------------------------------------Contact style------------------------------------------ */
+.back-contact-us-img {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url(img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 85%);
+    /* z-index: -1; */
+}
+
+.back-contact-us-img h1 {
+    padding-top: 140px;
+}
+
+.back-contact-us-img h1,
+.back-contact-us-img p {
+    color: #fff;
+}
+
+.contact-form {
+    width: 60%;
+    margin-top: -270px;
+}
+
+.contact-form h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.contact-form p {
+    color: #fff;
+}
+
+.contact-form label {
+    color: rgb(82, 227, 220);
+}
+
+.contact-form textarea {
+    height: 140px;
+}
+
+.contact-form .contact-button {
+    text-align: center;
+    margin-bottom: 80px !important;
+}
+
+.contact-form .contact-button .btn {
+    background-color: rgb(82, 227, 220);
+    border: none;
+}
+
+.contact-form form {
+    margin-bottom: 80px;
+}
+
+/* -------------------------------------Contact style------------------------------------------ */
+
+/* ------------------------------------- About style------------------------------------------ */
+.about-us-landing-img {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: url(img/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0 85%);
+}
+
+.about-us-landing-img h1 {
+    color: white;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.about-main-containt .about-first-sec li {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.about-main-containt .about-first-sec li i {
+    margin-right: 8px;
+}
+
+.about-main-containt .faqs {
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.about-main-containt .faqs .card-header {
+    background-color: #17252A;
+}
+
+.about-main-containt .faqs .card-header button {
+    color: #fff !important;
+}
+
+.about-main-containt .faqs li {
+    list-style: none;
+    padding-left: 12px;
+}
+
+.about-main-containt .faqs li i {
+    margin-right: 8px;
+}
+
+/* ------------------------------------- About style------------------------------------------ */
+
+
+/* ------------------------------------- forget password style ------------------------------------------ */
+.container .forget-pass-form {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 42vh;
+    margin-bottom: 170px;
+    text-align: center;
+}
+
+/* ------------------------------------- forget password style ------------------------------------------ */
+
+/* -------------------------------------footer style------------------------------------------ */
+.footer {
+    /* bottom: 0; */
+    /* margin-top: auto; */
+    background-color: #17252A;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.footer .social-connet span {
+    float: right;
+}
+
+.footer .social-connet span i {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.footer .footerhr {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(82, 227, 220);
+}
+
+.footer .copyright {
+    text-align: center;
+    margin-top: 13px;
+}
+
+/* -------------------------------------footer style------------------------------------------ */
+
+/* -------------------------------------Media QUERIES Style------------------------------------------ */
+@media(max-width:991px) {
+
+    h1.title {
+        font-size: 30px !important;
+        letter-spacing: 2px;
+    }
+
+    a.btn {
+        margin-right: 10px;
+        padding: 6px 20px;
+    }
+
+    .bg-light {
+        background-color: transparent !important;
+    }
+
+    .shrink {
+        background: #17252A !important;
+    }
+
+    .banner {
+        padding: 150px 0px;
+        background-position: top center;
+    }
+
+    .banner-desc {
+        padding: 78px 0px;
+    }
+
+}
+
+
+/* -------------------------------------Media QUERIES Style------------------------------------------ */
+
+#regForm {
+    /* background-color: #ffffff; */
+    margin: 100px auto;
+    /* font-family: Raleway; */
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+    min-height: 100vh;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+.multiform-button {
+    background-color: rgb(82, 227, 220);
+    color: #ffffff;
+    border: none;
+    padding: 7px 35px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+    margin-top: 35px;
+}
+
+/* .back-hight-full{
+    height: 100vh;
+} */
+
+/* button:hover {
+    opacity: 0.8;
+} */
+
+#prevBtn {
+    background-color: #17252A;
+    color: #fff;
+    margin-right: 35px;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #17252A;
+    border: 1px solid rgb(82, 227, 220);
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    /* font-size: 23px; */
+}
+
+/* 
+.view-template {
+    position: fixed;
+} */
+
+.view-resume-template {
+    float: right;
+    /* justify-content: right; */
+    font-size: 23px;
+    /* margin: 0 auto; */
+    cursor: pointer;
+    margin-top: 35px;
+    margin-right: 76px;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+.step.finish {
+    background-color: #04AA6D;
+}

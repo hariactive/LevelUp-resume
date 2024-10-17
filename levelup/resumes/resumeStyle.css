@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.resumetwo h1,
+.resumetwo h2,
+.resumetwo h3,
+.resumetwo h4,
+.resumetwo h5,
+.resumetwo h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* --------------------------------- ResumeOne style----------------------------------------- */
+.container .resumeOne .name h2 {
+    text-align: center;
+    margin-top: 8px;
+    color: #0da134;
+
+}
+
+.container .resumeOne .basicInfo {
+    text-align: center;
+}
+
+.container .resumeOne .basicInfo li {
+    display: inline;
+    margin-right: 14px;
+}
+
+.container .resumeOne .basicInfo li span {
+    font-weight: bold;
+    color: #0da134;
+}
+
+.container .resumeOne .lineHead {
+    border: 3px solid #0da134;
+}
+
+.container .resumeOne .profile {
+    margin-top: 18px;
+}
+
+.container .resumeOne i {
+    border: 1px solid #0da134;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.container .resumeOne h5 {
+    color: #0da134;
+}
+
+.container .resumeOne .profile p {
+
+    padding-left: 94px;
+    justify-content: center;
+}
+
+.container .resumeOne .line {
+    border: 1px solid #0da134;
+}
+
+.container .resumeOne .work-exp .desig {
+    margin-bottom: 1px;
+}
+
+.container .resumeOne .education .desig {
+    margin-bottom: 1px;
+}
+
+.container .resumeOne .certification ul {
+    margin-left: 22px;
+}
+
+.container .resumeOne .certification .cer-date {
+    float: right;
+    color: #0da134;
+}
+
+/* --------------------------------- ResumeTwo style----------------------------------------- */
+
+.resumetwo {
+    margin-top: 40px;
+}
+
+.resumetwo .header .name,
+.resumetwo .objc .objc-head {
+    border-right: 2px solid #2e2a8c;
+    ;
+}
+
+.resumetwo .header .name h2 {
+    color: #2e2a8c;
+}
+
+.resumetwo .header .name h6,
+.resumetwo .objc h5 {
+    color: #7f7aeb;
+}
+
+.resumetwo .header .inner-header {
+    margin-top: 14px;
+}
+
+.resumetwo .header .inner-header ul {
+    list-style: none;
+}
+
+.resumetwo .header .inner-header ul li strong,
+.resumetwo .objc strong {
+    color: #7f7aeb;
+}
+
+.resumetwo .lineHead {
+    border: 3px solid #2e2a8c;
+}
+
+.resumetwo .line {
+    margin: 20px 0px 20px 0px;
+    ;
+}
+
+.resumetwo .pd-sec {
+    padding: 18px;
+}
+
+.resumetwo .objc .date {
+    float: right;
+}
+
+.resumetwo .objc ul {
+    padding-left: 30px;
+}
+
+/* --------------------------------- ResumeThree style----------------------------------------- */
+.resumeThree {
+    margin-top: 40px;
+}
+
+.resumeThree .resumeHeader {
+    background-color: #8520e3;
+    border-bottom: 6px solid #52c7c3;
+    text-align: center;
+    padding: 20px;
+}
+
+.resumeThree .resumeHeader h2,
+.resumeThree .resumeHeader h6 {
+    color: #52c7c3;
+}
+
+.resumeThree .resumeHeader ul li {
+    display: inline;
+    list-style-type: circle;
+    margin-right: 22px;
+    /* font-weight: bold; */
+    color: #fff;
+}
+
+.resumeThree .contain .contain-inner .objcv p {
+    margin-top: 60px;
+    padding-left: 40px;
+}
+
+.resumeThree .contain .contain-inner {
+    padding-right: 46px;
+}
+
+.resumeThree .contain .contain-inner .expre {
+    padding-left: 40px;
+
+}
+
+.resumeThree .contain .contain-inner .expre .exp .date {
+    float: right;
+}
+
+.resumeThree .contain .contain-inner .expre .exp ul {
+    margin-left: 24px;
+}
+
+.resumeThree .contain .contain-inner .educa {
+    padding-left: 40px;
+}
+
+.resumeThree .contain .contain-inner .educa ul {
+    margin-left: 24px;
+}
+
+.resumeThree .contain .left-bar {
+    background-color: #8520e3;
+    border-left: 6px solid #52c7c3;
+    margin-left: -15px;
+}
+
+.resumeThree .contain .left-bar .per-detail {
+    margin-top: 62px;
+    margin-left: 13px;
+    margin-bottom: 69px;
+    color: #fff;
+}
+
+.resumeThree .contain .left-bar .per-detail li{
+    margin-left: 25px;   
+    margin-bottom: 12px;
+}
+
+.resumeThree .contain .left-bar .skil {
+    margin-top: 87px;
+    margin-left: 13px;
+    margin-bottom: 62px;
+    color: #fff;
+}
+
+.resumeThree .contain .left-bar .skil li{
+    margin-left: 25px;   
+    margin-bottom: 12px;
+}
+
+.resumeThree .contain .left-bar .langu {
+    margin-top: 87px;
+    margin-left: 13px;
+    /* margin-bottom: 69px; */
+    color: #fff;
+}
+.resumeThree .contain .left-bar .langu li{
+    margin-left: 25px; 
+    margin-bottom: 12px;  
+}

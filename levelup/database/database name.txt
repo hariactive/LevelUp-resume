@@ -1,0 +1,5 @@
+You can run this database file by following given steps:
+1. download XAMPP local databse server.
+2. create a new database name as "levelupresume".
+3. click on Import on the top navbar.
+4. select the SQL file and click on go button.

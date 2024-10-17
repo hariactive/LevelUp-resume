@@ -1,0 +1,25 @@
+@media(max-width:765px) {
+    .banner_desc_resume_img{
+        display: none;
+    }
+
+    .section2 .margin-card {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+@media(min-width:768px) and (max-width: 1199px){
+    .section3 img {
+        width: 169px;
+        /* height: 250px; */
+    }
+}
+
+@media(max-width:767px){
+    .section3 img {
+        /* width: 169px; */
+        margin-top: 30px;
+        /* height: 250px; */
+    }
+}

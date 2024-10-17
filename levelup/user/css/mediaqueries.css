@@ -1,0 +1,64 @@
+/* ------------------------------------- media queries ------------------------------------------ */
+@media (max-width: 1080px){
+    .deshboard .container .deshboard-first .personal-details {
+        width: 50%;
+        margin: 0;
+        /* float: none; */
+        /* border: 4px solid #17252A; */
+        /* border-radius: 14px; */
+        padding: 7px;
+        border: none;
+        /* text-align: center; */
+    }
+
+    .left-sidebar.close-sidebar {
+        width: 0px;
+        padding: 0px;
+    }
+
+    .left-sidebar li a i {
+        /* margin-right: 12px; */
+     opacity: 1;
+    }
+
+    .left-sidebar.close-sidebar li a i{
+        opacity: 0;
+    }
+
+    .left-sidebar.close-sidebar~.main-containt {
+        margin-top: 150px;
+        margin-left: 40px;
+        /* height: 100vh; */
+        /* padding-right: 40px; */
+        /* width: 100%; */
+        width: calc(100% - 115px);
+        /* margin-left: 12px; */
+    }
+}
+
+@media (max-width: 554px){
+
+    .left-sidebar.close-sidebar~.main-containt {
+        margin-top: 150px;
+        margin-left: 40px;
+        /* height: 100vh; */
+        /* padding-right: 40px; */
+        /* width: 100%; */
+        width: calc(100% - 37px);
+        /* margin-left: 12px; */
+    }
+}
+
+@media (max-width: 404px) and (min-width: 300px){
+    .left-sidebar.close-sidebar~.main-containt {        
+        width: calc(100% - -107px);
+        /* width: 100%; */
+    }
+}
+
+@media (max-width: 298px){
+    .left-sidebar.close-sidebar~.main-containt {        
+        width: calc(100% - -232px);
+        /* width: 100%; */
+    }
+}

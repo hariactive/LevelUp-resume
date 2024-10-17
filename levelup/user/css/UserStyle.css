@@ -1,0 +1,618 @@
+/* -------------------------------------colour codes------------------------------------------ */
+/* dark color: #17252A */
+/* light color: #52e3dc  rgb(82, 227, 220) */
+/* Button color: #2B7A78 */
+/* blue colo:  #2471e3; */
+/* -------------------------------------colour codes------------------------------------------ */
+
+/* -------------------------------------Global Style------------------------------------------ */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    /* font-family: "Helvatica" san-serif; */
+    font-size: 16px;
+    /* background-color: #ebebed; */
+}
+
+/* p {
+    letter-spacing: .9px;
+    line-height: 26px;
+    font-family: 'Merriweather', sans-serif;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-family: 'Rancho', cursive; */
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input[type=email],
+input[type=password],
+input[type=text],
+#select-skill,
+.select-option,
+textarea {
+    width: 100% !important;
+    border-left: 12px solid rgb(82, 227, 220) !important;
+}
+
+:root {
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+.userhr {
+    width: 100%;
+    margin-top: 20px;
+    border: 2px solid rgb(82, 227, 220);
+}
+
+body .main-containt .changepass-form form .blue-light-button {
+    background-color: rgb(82, 227, 220) !important;
+    border: none;
+}
+
+.btn-background-colour {
+    background-color: rgb(82, 227, 220);
+    border: none;
+    outline: none;
+}
+
+/* -------------------------------------Global Style------------------------------------------ */
+
+
+/* -------------------------------------header/NavBar Style------------------------------------------ */
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.back-color {
+    background-color: #17252A !important;
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+header .navbar .navbar-nav a {
+    color: #fff !important;
+    margin-left: 20px;
+}
+
+header .navbar .navbar-nav .active1 a {
+    /* background-color: pink !important; */
+    color: #3AAFA9 !important;
+    font-weight: bolder;
+}
+
+.navbar-light .navbar-toggler-icon {
+    /* background-image: url("data:image/svg+xml;.."); */
+    color: #fff !important;
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: lightgreen;
+    /* padding: -20px; */
+    /* border:0px solid transparent; */
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 35 35' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(82, 227, 220, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* 
+nav .container {
+    border-bottom: 1px solid rgba(107, 106, 106, 0.6);
+    padding-bottom: 10px;
+} */
+/* 
+.shrink .container {
+    border: none !important;
+} */
+/* 
+ul.navbar-nav li a.nav-link {
+    color: #ffffff !important;
+} */
+/* 
+ul.navbar-nav li a.nav-link:hover {
+    color: #2d94fc !important;
+} */
+/* 
+ul.navbar-nav li.active a.nav-link {
+    color: #2d94fc !important;
+    transition: all.3s;
+} */
+
+.shrink {
+    /* background: #fff !important; */
+    box-shadow: 1px 2px 4px 0px #00000075 !important;
+}
+
+/* 
+.shrink .navbar-brand {
+    color: #2d94fc !important;
+} */
+/* 
+.shrink ul.navbar-nav li a.nav-link {
+    color: #222222 !important;
+} */
+/* 
+.shrink ul.navbar-nav li a.nav-link:hover,
+.shrink ul.navbar-nav li.active a.nav-link {
+    color: #2d94fc !important;
+} */
+
+/* -------------------------------------header/NavBar Style------------------------------------------ */
+
+/* -------------------------------------Sidebar Style------------------------------------------ */
+.left-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 237px;
+    padding: 10px 14px;
+    background: #17252A;
+    transition: var(--tran-05);
+    /* margin-top: 50px; */
+    z-index: -1;
+}
+
+.left-sidebar.close-sidebar {
+    width: 88px;
+}
+
+/* sidebar profile image */
+.left-sidebar .profile-image-text .profile-image {
+    text-align: center;
+}
+
+.left-sidebar .profile-image-text .profile-image img {
+    width: 143px;
+    height: 143px;
+    margin-top: 93px;
+    border-radius: 50%;
+    border: 6px solid rgb(82, 227, 220);
+    margin-left: 30px;
+    /* justify-items: center; */
+    margin-bottom: 12px;
+    transition: 2s;
+}
+
+.left-sidebar.close-sidebar .profile-image-text .profile-image img {
+    width: 40px;
+    height: 43px;
+    margin-top: 93px;
+    border-radius: 50%;
+    border: 6px solid rgb(82, 227, 220);
+    margin-left: 8px;
+    justify-items: center;
+    margin-bottom: 100px;
+    transition: 0.2ms;
+}
+
+/* .left-sidebar .profile-image-text .profile-text{
+    text-align: center;
+}
+
+.left-sidebar .profile-image-text .profile-text p{
+    color: #fff;
+    font-size: 14px;
+} */
+
+.left-sidebar .menu-bar-sidebar {
+    margin-top: 120px;
+}
+
+.left-sidebar li {
+    height: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 18px !important;
+    /* margin: 20px 0px 20px 0px; */
+    /* background-color: black; */
+    /* padding-left: 44px; */
+}
+
+.left-sidebar li a i {
+    /* margin-right: 12px; */
+    color: rgb(82, 227, 220);
+    font-size: 18px;
+}
+
+.left-sidebar .text {
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    padding-left: 12px;
+    opacity: 1;
+}
+
+.left-sidebar .text,
+.left-sidebar .icons {
+    color: var(--text-color);
+    transition: 2s;
+}
+
+.left-sidebar.close-sidebar .text {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.left-sidebar.close-sidebar .menu-bar-sidebar .nav-link {
+    padding-bottom: 0px !important;
+    margin: 18px 0px 18px 0px;
+}
+
+.left-sidebar .bottom-content {
+    margin-top: 32px;
+    padding-left: 15px;
+}
+
+.left-sidebar .toggle {
+    position: absolute;
+    top: 122px;
+    right: -32px;
+    transform: translateY(-50%) rotate(180deg);
+    height: 32px;
+    width: 30px;
+    background-color: var(--primary-color);
+    color: var(--sidebar-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition: var(--tran-05);
+    z-index: 1;
+}
+
+.left-sidebar.close-sidebar .toggle {
+    transform: translateY(-50%) rotate(0deg);
+}
+
+/* -------------------------------------Sidebar Style------------------------------------------ */
+
+/* -------------------------------------deshboad Style------------------------------------------ */
+.deshboard{
+    padding-bottom: 80px;
+}
+
+.deshboard .container .deshboard-first {
+    width: 100%;
+}
+
+.deshboard .container .deshboard-first .personal-details {
+    width: 34%;
+    margin: 0 auto;
+    float: none;
+    border: 4px solid #17252A;
+    border-radius: 14px;
+    padding: 15px;
+    /* text-align: center; */
+}
+
+.deshboard .container .deshboard-first .personal-details .intro-image {
+    text-align: center;
+}
+
+.deshboard .container .personal-details .intro-image img {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    border-radius: 50%;
+    /* border: 4px solid #17252A; */
+}
+
+.deshboard .container .deshboard-first .personal-details .text-head {
+    color: #2471e3;
+    font-weight: bolder;
+    margin-right: 6px;
+}
+
+.deshboard .container .deshboard-first .personal-details .colorGreen {
+    color: #115210;
+}
+
+.deshboard .container .deshboard-first .personal-details .colorGreen i,
+.deshboard .container .deshboard-first .personal-details .colorRed i {
+    margin-right: 6px;
+}
+
+.deshboard .container .deshboard-first .personal-details .colorRed {
+    color: red;
+}
+
+.deshboard .userIntro,
+.deshboard .userIntro,
+.deshboard .userSkills,
+.deshboard .userExperience,
+.deshboard .userEducation,
+.deshboard .userCertification,
+.deshboard .userProject,
+.deshboard .userLinks {
+    margin-top: 60px;
+}
+
+.deshboard .userIntro h4,
+.deshboard .userIntro h4,
+.deshboard .userSkills h4,
+.deshboard .userExperience h4,
+.deshboard .userEducation h4,
+.deshboard .userCertification h4,
+.deshboard .userProject h4,
+.deshboard .userLinks h4{
+    color: #2471e3;
+}
+
+/* -------------------------------------deshboad Style------------------------------------------ */
+
+/* -------------------------------------Personal details Style------------------------------------------ */
+.main-containt {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 270px;
+    /* height: 100vh; */
+    width: calc(100% - 360px);
+    /* width: 100%; */
+    transition: var(--tran-05);
+    z-index: -1;
+    /* margin-bottom: 120px; */
+    /* padding-left: -120px; */
+}
+
+.main-containt h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 12px 0px;
+}
+
+.left-sidebar.close-sidebar~.main-containt {
+    margin-top: 150px;
+    margin-left: 112px;
+    /* height: 100vh; */
+    /* padding-right: 40px; */
+    /* width: 100%; */
+    width: calc(100% - 115px);
+    /* margin-left: 12px; */
+}
+
+.main-containt .container {
+    /* padding-left: -120px; */
+    margin-left: 12px;
+    /* width: 100%; */
+}
+
+/* -------------------------------------Personal details Style------------------------------------------ */
+
+/* -------------------------------------Skills Style------------------------------------------ */
+.main-containt .title-skill .add-skill-icon i {
+    float: right;
+    font-size: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.main-containt .title-skill hr {
+    width: 89%;
+    margin-top: 20px;
+    border: 2px solid rgb(82, 227, 220);
+}
+
+/* -------------------------------------Skills Style------------------------------------------ */
+
+/* -------------------------------------work Exprence Style------------------------------------------ */
+.main-containt .container .title-work-exp .add-skill-icon i {
+    float: right;
+    font-size: 22px;
+    /* margin-bottom: 220px; */
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.main-containt .container .title-work-exp hr {
+    width: 89%;
+    margin-top: 20px;
+    border: 2px solid rgb(82, 227, 220);
+}
+
+.main-containt .container .exp-inner {
+    margin-left: 126px;
+    margin-right: 120px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.main-containt .container .exp-inner .job-title span,
+.main-containt .container .exp-inner .company-name span {
+    font-size: 23px;
+    color: rgb(82, 227, 220);
+}
+
+.main-containt .container .exp-inner .job-title i {
+    float: right;
+}
+
+/* -------------------------------------work Exprence Style------------------------------------------ */
+
+/* -------------------------------------Education Style------------------------------------------ */
+.main-containt .container .eud-inner .edu-school-name i {
+    float: right;
+    font-size: 22px;
+    /* margin-bottom: 220px; */
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.main-containt .container .title-edu hr {
+    width: 89%;
+    margin-top: 20px;
+    border: 2px solid rgb(82, 227, 220);
+}
+
+.main-containt .container .edu-inner {
+    margin-left: 126px;
+    margin-right: 120px;
+    line-height: 18px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.main-containt .container .edu-inner .edu-school-name span,
+.main-containt .container .edu-inner .degree-name span {
+    font-size: 23px;
+    color: rgb(82, 227, 220);
+}
+
+.main-containt .container .edu-inner .edu-school-name i {
+    float: right;
+}
+
+/* ------------------------------------- Education Style ----------------------------------------- */
+
+/* ------------------------------------- Projects Style ------------------------------------------ */
+.main-containt .container .project-card {
+    padding: 4px;
+    /* margin-bottom: 30px; */
+    /* z-index: 1; */
+    /* width: 220px; */
+    display: table;
+}
+
+
+
+.main-containt .container .project-card .card-img-size {
+    width: 100%;
+    height: 100%;
+    /* padding: 40px; */
+}
+
+.main-containt .container .project-card .project-card-img-btn {
+    text-align: center;
+    background-color: rgba(85, 92, 94, 0.8);
+    /* padding: 190px 46px 32px 46px; */
+    /* padding: 32px 46px 32px 46px; */
+    /* justify-content: center; */
+    /* top: 50%; */
+    opacity: 0;
+    /* vertical-align: middle; */
+    /* height: 0px; */
+    /* margin-top: 352px; */
+    /* z-index:999999; */
+
+}
+
+.main-containt .container .project-card .project-card-img-btn a {
+    /* display: block; */
+    /* vertical-align: middle; */
+    /* position: absolute; */
+    margin-top: 50%;
+    /* left: 50%; */
+}
+
+.main-containt .container .project-card .project-card-img-btn:hover {
+    opacity: 1;
+    /* margin-top: 122px; */
+    transition: 0.34s;
+
+}
+
+.main-containt .container .project-card .project-card-img-btn .btn {
+    background-color: rgb(85, 92, 94);
+    border: none;
+    outline: none;
+}
+
+.main-containt .container .project-card-img-text {
+    margin-bottom: 22px;
+}
+
+.main-containt .container .project-card-img-text h5,
+.main-containt .container .project-card-img-text p {
+    text-align: center;
+    padding: 0px 18px 0px 18px;
+    width: 100%;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    /* line-height: 22px; */
+    margin-bottom: 0px !important;
+}
+
+.main-containt .container .project-card-img-text p {
+    /* line-height: 12px; */
+    font-size: 12px;
+}
+
+/* ------------------------------------- Projects Style ------------------------------------------ */
+
+/* ------------------------------------- Certificate Style ------------------------------------------ */
+.main-containt .container .certi-inner {
+    width: 89%;
+}
+
+.main-containt .container .certi-inner .certi-name {
+    color: rgb(82, 227, 220);
+    font-size: 28px;
+}
+
+.main-containt .container .certi-inner .certi-date {
+    margin-left: 3px;
+    font-size: small;
+}
+
+.main-containt .container .certi-inner .certi-view a {
+    margin-left: 5px;
+    font-size: small;
+}
+
+.main-containt .container .certi-inner .edit-icon {
+    float: right;
+}
+
+/* ------------------------------------- Certificate Style ------------------------------------------ */
+
+.main-containt .container .title-links .add-links-icon i {
+    float: right;
+    font-size: 22px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.main-containt .container .title-links hr {
+    width: 89%;
+    margin-top: 20px;
+    border: 2px solid rgb(82, 227, 220);
+}
+
